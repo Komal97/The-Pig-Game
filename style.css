@@ -36,11 +36,32 @@ body {
     overflow: hidden;
 }
 
+.final-score,
+.final-score-label {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #555;
+    top: 550px;
+    font-size: 18px;
+    font-family: 'Lato';
+    text-align: center;
+    padding: 10px;
+    width: 240px;
+    text-transform: uppercase;
+}
+
+.final-score-label {
+    transform: translateX(-50%) !important;
+    color: #000 !important;
+    top: 510px !important;
+}
+
 .player-0-panel,
 .player-1-panel {
     width: 50%;
     float: left;
-    height: 600px;
+    height: 620px;
     padding: 100px;
 }
 
