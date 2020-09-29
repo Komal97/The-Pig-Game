@@ -10,4 +10,3 @@ It is a web application game which is created using HTML, CSS and JavaScript
 - The player can choose to 'Hold', which means that his ROUND score gets added to his GLBAL score. After that, it's the next player's turn
 - The first player to reach 100 points on GLOBAL score wins the game
 
-https://github.com/Komal97/The-Pig-Game/blob/master/screenshots/Screenshot1.png
