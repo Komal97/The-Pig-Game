@@ -15,7 +15,7 @@
 }
 
 body {
-    background-image: linear-gradient(rgba(62, 20, 20, 0.4), rgba(62, 20, 20, 0.4)), url(images/background.jpg);
+    background-image: linear-gradient(rgb(195 184 184 / 40%), rgb(144 127 127 / 40%)), url(images/background.jpg);
     background-size: cover;
     background-position: center;
     font-family: Lato;
@@ -64,7 +64,7 @@ body {
     text-align: center;
     font-size: 80px;
     font-weight: 100;
-    color: #EB4D4D;
+    color: #58c7c7;
     margin-bottom: 130px;
 }
 
@@ -80,13 +80,13 @@ body {
     content: "\2022";
     font-size: 47px;
     position: absolute;
-    color: #EB4D4D;
+    color: #58c7c7;
     top: -7px;
     right: 10px;
 }
 
 .player-current-box {
-    background-color: #EB4D4D;
+    background-color: #58c7c7;
     color: #fff;
     width: 40%;
     margin: 0 auto;
@@ -95,10 +95,11 @@ body {
 }
 
 .player-current-label {
+    font-weight: 700;
     text-transform: uppercase;
     margin-bottom: 10px;
     font-size: 12px;
-    color: #222;
+    color: #000;
 }
 
 .player-current-score {
@@ -134,7 +135,7 @@ button:focus {
 }
 
 i {
-    color: #EB4D4D;
+    color: #58c7c7;
     display: inline-block;
     margin-right: 15px;
     font-size: 32px;
@@ -171,5 +172,5 @@ i {
 
 .winner .player-name {
     font-weight: 300;
-    color: #EB4D4D;
+    color: #58c7c7;
 }
