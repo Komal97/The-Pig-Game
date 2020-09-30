@@ -17,17 +17,14 @@ function init() {
     gamePlaying = true;
 
     document.getElementById('dice').style.display = 'none';
-    document.getElementById('score-0').innerHTML = '0';
-    document.getElementById('current-0').innerHTML = '0';
-    document.getElementById('score-1').innerHTML = '0';
-    document.getElementById('current-1').innerHTML = '0';
-    document.getElementById('name-0').innerHTML = 'Player 1';
-    document.getElementById('name-1').innerHTML = 'Player 2';
+    for (let i = 0; i < 2; i++) {
+        document.getElementById('score-' + i).innerHTML = '0';
+        document.getElementById('current-' + i).innerHTML = '0';
+        document.getElementById('name-' + i).innerHTML = 'Player ' + i;
+        document.querySelector('.player-' + i + '-panel').classList.remove('winner');
+        document.querySelector('.player-' + i + '-panel').classList.remove('active');
+    }
     document.querySelector('.final-score').value = '100';
-    document.querySelector('.player-0-panel').classList.remove('winner');
-    document.querySelector('.player-1-panel').classList.remove('winner');
-    document.querySelector('.player-0-panel').classList.remove('active');
-    document.querySelector('.player-1-panel').classList.remove('active');
     document.querySelector('.player-0-panel').classList.add('active');
 }
 
