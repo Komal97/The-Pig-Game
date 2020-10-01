@@ -9,6 +9,7 @@ function startGame() {
 
 var scores, roundScore, activePlayer, gamePlaying, lastDice;
 
+// initialize game components to default value
 function init() {
 
     scores = [0, 0];
